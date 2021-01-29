@@ -106,7 +106,7 @@ export default {
             },//撤销/回退的可操作状态
             initialStatus:true,//是否是初始状态
             matherSetSize:{width:0,height:0},
-            isPutInShow:false,//是否显示投放按钮
+            isPutInShow:true,//是否显示投放按钮
         };
     },
     methods: {

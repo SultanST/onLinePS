@@ -22,8 +22,7 @@
                 </div>
             </div> 
         </div>
-        <!-- <div v-if="isGif" :class="['preview_state',{'preview_state_normal':!isReviewing,'preview_state_playing ':isReviewing}]" @click="clickDownOrPutOutBtn(1)">
-        </div> -->
+        <div v-if="isGif" :class="['preview_state',{'preview_state_normal':!isReviewing,'preview_state_playing ':isReviewing}]" @click="clickDownOrPutOutBtn(1)">预览</div>
     </div>   
 </template>
 <script>
